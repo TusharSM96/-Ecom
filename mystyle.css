@@ -729,7 +729,7 @@ padding: 14px;
     width:100%;
     color:white ;
     font-size: 20px;
-    background: red;
+    background: rgb(1, 4, 4);
     margin-top: 30px;
 }
 #cart table th{
@@ -1077,4 +1077,22 @@ padding: 14px;
    #contact-box .google-map{
         width: 90%;
    }
+ }
+ @media(max-width:420px){
+    #cart table{
+        font-size: 14px; 
+    }
+    #cart table i:hover{
+        font-size: 20px;
+    }
+    #cart tbody input{
+        padding: 5px;
+     }
+    .copun input[type=text]{ 
+        padding: 5px 10px;
+    }
+    .copun input[type=button]{ 
+        padding: 5px 10px;
+        font-weight: 500;
+    }
  }
