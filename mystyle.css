@@ -38,11 +38,23 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: rgb(143, 161, 211);
+    background: rgb(12, 69, 225);
     box-shadow: 0 5px 15px rgb(101, 182, 212);
     z-index: 999;
     position: sticky;
     top: 0px;
+}
+#header i{
+    color:aqua;
+    margin-right: 10px;
+}
+#header a{
+    text-decoration: none;
+    color: chartreuse;
+}
+#header a h1{
+    color: red;
+
 }
 #navbar{
   display: flex;
@@ -73,7 +85,7 @@ body{
 }
 /* hero section start  */
 #hero{
-    background-image: url(img/hero4.png);
+    background-image: url(img/new/hero.jpg);
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -116,6 +128,7 @@ text-decoration: none;
 }
 #feature .fe-box{
 width: 180px;
+height: 190px;
 text-align: center;
 padding: 25px 15px;
 border: 1px solid gray;
@@ -131,6 +144,7 @@ box-shadow: 10px 10px 54px rgb(40, 32, 32);
 }
 #feature .fe-box img{
    width: 100%;
+   height: 100%;
    margin-bottom: 10px;
 }
 
@@ -275,7 +289,7 @@ box-shadow: 10px 10px 54px rgb(40, 32, 32);
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(img/banner/b7.jpg);
+    background-image: url(img/new/banner1.jpg);
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -729,7 +743,7 @@ padding: 14px;
     width:100%;
     color:white ;
     font-size: 20px;
-    background: rgb(1, 4, 4);
+    background: rgb(114, 199, 123);
     margin-top: 30px;
 }
 #cart table th{
@@ -1077,22 +1091,4 @@ padding: 14px;
    #contact-box .google-map{
         width: 90%;
    }
- }
- @media(max-width:420px){
-    #cart table{
-        font-size: 14px; 
-    }
-    #cart table i:hover{
-        font-size: 20px;
-    }
-    #cart tbody input{
-        padding: 5px;
-     }
-    .copun input[type=text]{ 
-        padding: 5px 10px;
-    }
-    .copun input[type=button]{ 
-        padding: 5px 10px;
-        font-weight: 500;
-    }
  }
